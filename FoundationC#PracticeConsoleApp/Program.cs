@@ -5,7 +5,10 @@ class program
 {
     static void Main(string[] args)
     {
-        Operations obj = new Operations();
-        obj.Accept();
+        //Operations obj = new Operations();
+        //obj.Accept();
+
+        LogicalOperations lo = new LogicalOperations();
+        lo.Operations();
     }
 }

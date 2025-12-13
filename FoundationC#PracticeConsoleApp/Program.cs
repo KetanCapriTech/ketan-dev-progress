@@ -17,7 +17,13 @@ class program
         //LinqQueries methodSyntax = new LinqQueries();
         //methodSyntax.ExampleMethodSyntax();
 
-        LinqQueries mixedSyntax = new LinqQueries();
-        mixedSyntax.ExampleMixedSyntax();
+        //LinqQueries mixedSyntax = new LinqQueries();
+        //mixedSyntax.ExampleMixedSyntax();
+
+        //LinqQueries oddMethodSyntax = new LinqQueries();
+        //oddMethodSyntax.ExampleMethodSyntaxOdd();
+
+        LinqQueries evenMethodSyntax = new LinqQueries();
+        evenMethodSyntax.ExampleMethodSyntaxEven();
     }
 }

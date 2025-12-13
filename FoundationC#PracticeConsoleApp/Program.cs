@@ -30,14 +30,31 @@ class program
         //PracticeIEnumberable pe = new PracticeIEnumberable();
         //pe.ExampleIEnumerable();
 
-        ProjectionMethodPractice projectionMethodPractice = new ProjectionMethodPractice();
+        //ProjectionMethodPractice projectionMethodPractice = new ProjectionMethodPractice();
         // projectionMethodPractice.ProjectionSelect();
 
         //projectionMethodPractice.PojectionSelectMany();
 
         //projectionMethodPractice.SelectManyExample2();
         //projectionMethodPractice.WhereOperatorExample();
-        projectionMethodPractice.ExampleOfTypeOfMethodInLinq();
+        //projectionMethodPractice.ExampleOfTypeOfMethodInLinq();
+
+        
+        SortingMethodsExample sme = new SortingMethodsExample();
+        //sme.OrderByExample1();
+        //sme.OrderByExample2String();
+        //sme.OrderByExample2();
+        //sme.OrderByExample3String();
+
+        //sme.OrderByDecendingExample1();
+        //sme.OrderByDecendingExample2String();
+        //sme.OrderByDecendingExample2();
+        //sme.OrderByDecendingExample3String();
+
+        //sme.ThenByExample1();
+        //sme.ThenByDesendingExample1();
+
+        //sme.ReverseExample();
         #endregion
     }
 }

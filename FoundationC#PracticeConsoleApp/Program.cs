@@ -102,6 +102,8 @@ class program
         AdvancedDelegateExample example = new AdvancedDelegateExample();
         example.Run();
 
+        SetOpperation setOpperation = new SetOpperation();
+        setOpperation.DistinctExample1();
         #endregion
     }
 }

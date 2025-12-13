@@ -26,12 +26,27 @@ namespace FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance
                           select std;
 
             // method syntax
-            var student = students.Where(s => s.Id ==1 || s.Name == "keatn").ToList();
+            IEnumerable<Students> student = students.Where(s => s.Id ==1 || s.Name == "keatn").ToList();
 
-            foreach(var item in student)
+            IQueryable<Students> student1 = students.AsQueryable().Where(s => s.Id ==1 && s.Name == "ketan");
+
+
+            foreach (var item in student1)
             {
                 Console.WriteLine(item.Id +" " + item.Name);
             }
+
+            /*
+            Use IEnumerable when:
+            Data is already in memory
+            we are working with arrays or lists
+            we don’t need DB optimization
+
+            Use IQueryable when:
+            Querying a database
+            we want filtering, sorting, paging in SQL
+            we want better performance
+             */
         }
 
     }

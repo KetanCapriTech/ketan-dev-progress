@@ -9,7 +9,7 @@ namespace FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance
 {
     public class ProjectionMethodPractice
     {
-        public void ProjectionOpertaion()
+        public void ProjectionSelect()
         {
             List<Employee> employee = new List<Employee>()
             {
@@ -24,10 +24,52 @@ namespace FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance
                               select emp).ToList();
 
             var basicMethodQuery = employee.ToList();
-            
-            foreach (var item in basicMethodQuery)
+
+            var selectEmploye = employee.Select(emp => new Employee() {
+                Id = emp.Id,
+                Name = emp.Name,
+                Email = emp.Email,
+            }).ToList();
+
+            foreach (var item in selectEmploye)
             {
-                Console.WriteLine(item.Id + " " + item.Name);   
+                Console.WriteLine(item.Id + " " + item.Name + " "+ item.Email );   
+            }
+        }
+
+        public void PojectionSelectMany()
+        {
+            List<string> list = new List<string>() {"ketan","funde"};
+
+            var methodQuery = list.SelectMany(x => x).ToList();
+
+            foreach(var item in methodQuery)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        public void SelectManyExample2()
+        {
+            var dataSource = new List<Employee>()
+            {
+                new Employee(){Id = 1, Name = "rajesh" , Programing = new List<string>(){"c#" , "Java", "Python"}},
+                new Employee(){Id = 2, Name = "brijesh" , Programing = new List<string>(){"c++" , ".NET", "Future"}},
+                new Employee(){Id = 3, Name = "somesh" , Programing = new List<string>(){"PHP" , "MYSQL", "RUby"}},
+                new Employee(){Id = 4, Name = "sarvesh" , Programing = new List<string>(){"SQL" , "POSTGRES", "RAIls"}},
+                new Employee(){Id = 5, Name = "divesh" , Programing = new List<string>(){"DJANGO" , "kuchbhi", "DSA"}},
+            };
+
+            var queryMethod = dataSource.SelectMany(emp => emp.Programing).ToList();
+
+            // using syntaxQuery
+            var querySyntax = (from emp in dataSource
+                              from skill in emp.Programing
+                              select skill).ToList();
+
+            foreach(var item in querySyntax)
+            {
+                Console.WriteLine(item);
             }
         }
     }

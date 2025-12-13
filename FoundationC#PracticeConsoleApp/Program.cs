@@ -1,4 +1,4 @@
-﻿using FoundationC_PracticeConsoleApp;
+﻿using FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance;
 using System;
 
 class program
@@ -11,6 +11,7 @@ class program
         //LogicalOperations lo = new LogicalOperations();
         //lo.Operations();
 
+        #region :: Linq ::
         //LinqQueries lq = new LinqQueries();
         //lq.ExampleQuerySyntax();
 
@@ -23,7 +24,11 @@ class program
         //LinqQueries oddMethodSyntax = new LinqQueries();
         //oddMethodSyntax.ExampleMethodSyntaxOdd();
 
-        LinqQueries evenMethodSyntax = new LinqQueries();
-        evenMethodSyntax.ExampleMethodSyntaxEven();
+        //LinqQueries evenMethodSyntax = new LinqQueries();
+        //evenMethodSyntax.ExampleMethodSyntaxEven();
+
+        PracticeIEnumberable pe = new PracticeIEnumberable();
+        pe.ExampleIEnumerable();
+        #endregion
     }
 }

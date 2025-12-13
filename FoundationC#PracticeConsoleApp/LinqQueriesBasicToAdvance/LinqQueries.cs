@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoundationC_PracticeConsoleApp
+namespace FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance
 {
     public class LinqQueries
     {

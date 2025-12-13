@@ -13,6 +13,7 @@ namespace FoundationC_PracticeConsoleApp.Model
         public string LastName { get; set; }
         public string Email { get; set; }
         public List<string> Programing { get; set; }
+        public int Salary { get; set; }
 
     }
 }

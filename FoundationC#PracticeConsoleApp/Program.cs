@@ -39,8 +39,8 @@ class program
         //projectionMethodPractice.WhereOperatorExample();
         //projectionMethodPractice.ExampleOfTypeOfMethodInLinq();
 
-        
-        SortingMethodsExample sme = new SortingMethodsExample();
+
+        //SortingMethodsExample sme = new SortingMethodsExample();
         //sme.OrderByExample1();
         //sme.OrderByExample2String();
         //sme.OrderByExample2();
@@ -55,6 +55,12 @@ class program
         //sme.ThenByDesendingExample1();
 
         //sme.ReverseExample();
+
+
+        QuantifierOperator qo = new QuantifierOperator();
+        //qo.QuantifierOperatorEx1ALL();
+        //qo.QuantifierOperatorEx1Any();
+        qo.QuantifierOperatorEx2Conatins();
         #endregion
     }
 }

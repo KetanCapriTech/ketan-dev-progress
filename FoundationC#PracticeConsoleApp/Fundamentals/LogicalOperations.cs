@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FoundationC_PracticeConsoleApp.Model;
 
-namespace FoundationC_PracticeConsoleApp
+namespace FoundationC_PracticeConsoleApp.Fundamentals
 {
     internal class LogicalOperations
     {
@@ -104,7 +104,7 @@ namespace FoundationC_PracticeConsoleApp
 
         internal float CalculateSimpleIntrest(float intrest , float principle, float time)
         {
-            float result = (intrest * principle * time) / 100;
+            float result = intrest * principle * time / 100;
             return result;
         }
         #endregion
@@ -145,7 +145,7 @@ namespace FoundationC_PracticeConsoleApp
 
         internal CompoundIntrestDto CalculateCompundIntrest(decimal principle, decimal rate, decimal time , int n)
         {
-            decimal amount = principle * (1 + rate / n) * (n * time);
+            decimal amount = principle * (1 + rate / n) * n * time;
             decimal compundIntrest = amount - principle;
 
             CompoundIntrestDto dto = new CompoundIntrestDto
@@ -274,7 +274,7 @@ namespace FoundationC_PracticeConsoleApp
 
         internal string OddOrEven(string number) {
 
-            string result = (Convert.ToInt32(number) % 2 == 0) ? "Even number" : "Odd number";
+            string result = Convert.ToInt32(number) % 2 == 0 ? "Even number" : "Odd number";
             return result;
         }
         #endregion
@@ -292,7 +292,7 @@ namespace FoundationC_PracticeConsoleApp
 
         internal string checkLeapYear(int year)
         {
-            string result = year % 400 == 0 || (year % 4 == 0 && year % 100 != 0) ? "Leap Year" : "Not a Leap year";
+            string result = year % 400 == 0 || year % 4 == 0 && year % 100 != 0 ? "Leap Year" : "Not a Leap year";
             return result;
         }
         #endregion
@@ -311,9 +311,9 @@ namespace FoundationC_PracticeConsoleApp
         // nested ternary operator 
         internal string CheckDivisibleBy3or5(int num)
         {
-            string result = (num % 3 == 0 && num % 5 == 0) ? "Divisible by both 3 and 5"
-                : (num % 3 == 0 ? "Divisible by 3"
-                : (num % 5 == 0 ? "Divisible by 5" : "not divisible by both 3 and 5"));
+            string result = num % 3 == 0 && num % 5 == 0 ? "Divisible by both 3 and 5"
+                : num % 3 == 0 ? "Divisible by 3"
+                : num % 5 == 0 ? "Divisible by 5" : "not divisible by both 3 and 5";
 
             return result; 
         }

@@ -1,5 +1,7 @@
-﻿using FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance;
+﻿using FoundationC_PracticeConsoleApp.Delegates;
+using FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance;
 using System;
+using System.Runtime.ConstrainedExecution;
 
 class program
 {

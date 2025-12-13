@@ -1,2 +1,2 @@
-C# fundamendatals
-Linq queries and practice
+- C# Fundamentals
+- LINQ Queries and Practice

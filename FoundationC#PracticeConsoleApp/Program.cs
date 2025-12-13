@@ -57,10 +57,13 @@ class program
         //sme.ReverseExample();
 
 
-        QuantifierOperator qo = new QuantifierOperator();
+        //QuantifierOperator qo = new QuantifierOperator();
         //qo.QuantifierOperatorEx1ALL();
         //qo.QuantifierOperatorEx1Any();
-        qo.QuantifierOperatorEx2Conatins();
+        //qo.QuantifierOperatorEx2Conatins();
+
+        SetOpperation setOpperation = new SetOpperation();
+        setOpperation.DistinctExample1();
         #endregion
     }
 }

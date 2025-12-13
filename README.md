@@ -1,2 +1,3 @@
 - C# Fundamentals
 - LINQ Queries and Practice
+- Ref (LINQ - https://www.youtube.com/playlist?list=PLaFzfwmPR7_IZuwiT6nqcvNEhKl_Mg19A)

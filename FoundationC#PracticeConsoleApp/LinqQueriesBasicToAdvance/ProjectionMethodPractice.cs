@@ -72,5 +72,57 @@ namespace FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance
                 Console.WriteLine(item);
             }
         }
+
+        public void WhereOperatorExample()
+        {
+            List<Employee> employee = new List<Employee>()
+            {
+                new Employee(){Id = 1, Name = "ketan" , Email= "kvfunde@gmail.com"},
+                new Employee(){Id = 2, Name = "Swayam", Email="Swayam@gmail.com"},
+                new Employee(){Id = 3, Name = "Divesh", Email="divesh@gmail.com"},
+                new Employee(){Id = 4, Name = "Shiva", Email="Shiva@gmail.com"},
+                new Employee(){Id = 5, Name = "Rakesh", Email = "rakesh@gmail.com"}
+            };
+
+
+            var methodQuery = employee.Where(emp => emp.Id != 0 && emp.Id < 5 && emp.Email.Length != 0).ToList();
+
+            foreach(var item in methodQuery)
+            {
+                Console.WriteLine(item.Id + " " + item.Name + " " + item.Email);
+            }
+        }
+
+        public void ExampleOfTypeOfMethodInLinq()
+        {
+            var dataSource = new List<object>() {"kim" ,"deva", "john","sandy" ,"devid" ,1,2,3,4,5,6,7 , true , false, 1.2 , 5.8, 'a' , 'b' , 'c'};
+
+            var result = dataSource.OfType<string>().ToList();
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(result);
+            }
+
+            foreach(var item in dataSource.OfType<int>().ToList())
+            {
+                Console.WriteLine(item);
+            }
+
+            foreach (var item in dataSource.OfType<bool>().ToList())
+            {
+                Console.WriteLine(item);
+            }
+
+            foreach (var item in dataSource.OfType<double>().ToList())
+            {
+                Console.WriteLine(item);
+            }
+
+            foreach (var item in dataSource.OfType<char>().ToList())
+            {
+                Console.WriteLine(item);
+            }
+        }
     }
 }

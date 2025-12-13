@@ -35,7 +35,9 @@ class program
 
         //projectionMethodPractice.PojectionSelectMany();
 
-        projectionMethodPractice.SelectManyExample2();
+        //projectionMethodPractice.SelectManyExample2();
+        //projectionMethodPractice.WhereOperatorExample();
+        projectionMethodPractice.ExampleOfTypeOfMethodInLinq();
         #endregion
     }
 }

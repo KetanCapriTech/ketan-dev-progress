@@ -4,3 +4,6 @@
 - IEnumerable & IQuerable
 - Select() vs SelectMany()
 - Sorting methods
+- OOPs
+- Delegate
+- Mini Project using oops and delegate

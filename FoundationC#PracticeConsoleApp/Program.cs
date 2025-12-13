@@ -27,8 +27,11 @@ class program
         //LinqQueries evenMethodSyntax = new LinqQueries();
         //evenMethodSyntax.ExampleMethodSyntaxEven();
 
-        PracticeIEnumberable pe = new PracticeIEnumberable();
-        pe.ExampleIEnumerable();
+        //PracticeIEnumberable pe = new PracticeIEnumberable();
+        //pe.ExampleIEnumerable();
+
+        ProjectionMethodPractice projectionMethodPractice = new ProjectionMethodPractice();
+        projectionMethodPractice.ProjectionOpertaion();
         #endregion
     }
 }

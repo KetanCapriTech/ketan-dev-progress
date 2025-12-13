@@ -22,8 +22,10 @@ namespace FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance
 
             var basicQuery = (from emp in employee
                               select emp).ToList();
+
+            var basicMethodQuery = employee.ToList();
             
-            foreach (var item in basicQuery)
+            foreach (var item in basicMethodQuery)
             {
                 Console.WriteLine(item.Id + " " + item.Name);   
             }

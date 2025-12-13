@@ -31,7 +31,11 @@ class program
         //pe.ExampleIEnumerable();
 
         ProjectionMethodPractice projectionMethodPractice = new ProjectionMethodPractice();
-        projectionMethodPractice.ProjectionOpertaion();
+        // projectionMethodPractice.ProjectionSelect();
+
+        //projectionMethodPractice.PojectionSelectMany();
+
+        projectionMethodPractice.SelectManyExample2();
         #endregion
     }
 }

@@ -1,5 +1,7 @@
-﻿using FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance;
+﻿using FoundationC_PracticeConsoleApp.Delegates;
+using FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance;
 using System;
+using System.Runtime.ConstrainedExecution;
 
 class program
 {
@@ -57,10 +59,48 @@ class program
         //sme.ReverseExample();
 
 
-        QuantifierOperator qo = new QuantifierOperator();
+        //QuantifierOperator qo = new QuantifierOperator();
         //qo.QuantifierOperatorEx1ALL();
         //qo.QuantifierOperatorEx1Any();
-        qo.QuantifierOperatorEx2Conatins();
+        //qo.QuantifierOperatorEx2Conatins();
+        #endregion
+
+        #region :: Object Oriented Programming ::
+
+        //EncapsulationExBankAccount acc = new EncapsulationExBankAccount();
+        //acc.Deposit(5000);
+        //Console.WriteLine(acc.GetBalance());
+
+        //abstarction ex
+        //Vehicle v = new AbstractionExampleCar();
+        //v.Start();
+
+        //Inheritnace
+        //Dog d = new Dog();
+        //d.Eat();
+        //d.Bark();
+
+        // oops mini project
+        //EmployeeOOPSMiniProject miniProject = new EmployeeOOPSMiniProject();
+        //miniProject.Run();
+        #endregion
+
+        #region :: Delegates ::
+
+        //Delegate is a type-safe reference to a method that allows methods to be passed as parameters.
+        /*
+         * Event handling
+         * Callbacks
+         *LINQ
+         * Multicast methods
+         */
+
+        //DelegateExample demo = new DelegateExample();
+        //demo.Run();
+
+        AdvancedDelegateExample example = new AdvancedDelegateExample();
+        example.Run();
+
         #endregion
     }
 }

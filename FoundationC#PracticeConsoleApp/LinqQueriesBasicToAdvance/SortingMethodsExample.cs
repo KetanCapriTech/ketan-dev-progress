@@ -150,6 +150,7 @@ namespace FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance
                 Console.WriteLine(sortedEmployee.Id + " " + sortedEmployee.Name + " " + sortedEmployee.LastName);
             }
         }
+
         public void ThenByDesendingExample1()
         {
 
@@ -193,6 +194,7 @@ namespace FoundationC_PracticeConsoleApp.LinqQueriesBasicToAdvance
                 Console.WriteLine(sortedEmployee.Id + " " + sortedEmployee.Name + " " + sortedEmployee.LastName);
             }
         }
+
         public void ReverseExample()
         {
             List<int> numbers = new List<int>() { 4, 3, 5, 7, 89, 6, 1, 23, 2, 3, 56, 3 };

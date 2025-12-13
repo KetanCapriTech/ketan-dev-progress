@@ -3,3 +3,4 @@
 - Ref (LINQ - https://www.youtube.com/playlist?list=PLaFzfwmPR7_IZuwiT6nqcvNEhKl_Mg19A)
 - IEnumerable & IQuerable
 - Select() vs SelectMany()
+- Sorting methods

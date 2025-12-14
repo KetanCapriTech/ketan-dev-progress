@@ -63,6 +63,33 @@ class program
         //qo.QuantifierOperatorEx1ALL();
         //qo.QuantifierOperatorEx1Any();
         //qo.QuantifierOperatorEx2Conatins();
+
+        // set operation distinct 
+        //SetOpperation setOpperation = new SetOpperation();
+        //setOpperation.DistinctExample1();
+        //setOpperation.DistinctExample2();
+        //setOpperation.ExpectExample1();
+        //setOpperation.ExpectExample2();
+
+        //setOpperation.IntersectExample1();
+        //setOpperation.InterSectExample2();
+
+        //setOpperation.UnionExample1();
+        //setOpperation.UnionExample2();
+
+        //Partitioning operatoprs
+        //PartitioningExample example = new PartitioningExample();
+        //example.TakeExample();
+        //example.TakeExample1();
+        //example.TakeWhileExample1();
+        //example.TakeWhileExample2();
+        //example.SkipExample1();
+        //example.SkipWhileExample1();
+        //example.SkipWhileExample2();
+
+        // pagaination mini console app
+        PaginationExample paginationExample = new PaginationExample();
+        paginationExample.paginationImp();
         #endregion
 
         #region :: Object Oriented Programming ::
@@ -99,11 +126,10 @@ class program
         //DelegateExample demo = new DelegateExample();
         //demo.Run();
 
-        AdvancedDelegateExample example = new AdvancedDelegateExample();
-        example.Run();
+        //AdvancedDelegateExample example = new AdvancedDelegateExample();
+        //example.Run();
 
-        SetOpperation setOpperation = new SetOpperation();
-        setOpperation.DistinctExample1();
+
         #endregion
     }
 }

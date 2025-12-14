@@ -15,6 +15,8 @@ Track of C# basics and LINQ practice examples.
   - Polymorphism
 - Enumeration
 - Delegates
+- Join
+- Element operation
 
 ## Set Operations
 

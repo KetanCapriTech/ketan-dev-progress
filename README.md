@@ -1,4 +1,4 @@
-# C# & LINQ Practice
+# C# Fundamentals & LINQ Practice
 
 Track of C# basics and LINQ practice examples.
 

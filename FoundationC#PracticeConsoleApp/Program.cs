@@ -88,8 +88,18 @@ class program
         //example.SkipWhileExample2();
 
         // pagaination mini console app
-        PaginationExample paginationExample = new PaginationExample();
-        paginationExample.paginationImp();
+        //PaginationExample paginationExample = new PaginationExample();
+        //paginationExample.paginationImp();
+
+        // Join Operations
+        //JoinOperations jp = new JoinOperations();
+        //jp.JoinExample();
+
+        //Element opertaion
+        ElementOperations elementOperations = new ElementOperations();
+        //elementOperations.ElementAtOperation();
+        //elementOperations.ElementFirstOrDefault();
+        elementOperations.ElementFirstOrDefaultWithObject();
         #endregion
 
         #region :: Object Oriented Programming ::

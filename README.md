@@ -52,3 +52,6 @@ https://www.youtube.com/playlist?list=PLaFzfwmPR7_IZuwiT6nqcvNEhKl_Mg19A
 
 C# Fundamentals By : Shiva Gautam
 https://youtu.be/ZPxrO1F5JZg
+
+Join Tutorial: CODELLIGENT'
+https://www.youtube.com/watch?v=vAGnEdabFpM

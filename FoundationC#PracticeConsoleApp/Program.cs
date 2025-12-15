@@ -97,9 +97,13 @@ class program
 
         //Element opertaion
         ElementOperations elementOperations = new ElementOperations();
+        //elementOperations.ElementFirst();
         //elementOperations.ElementAtOperation();
         //elementOperations.ElementFirstOrDefault();
-        elementOperations.ElementFirstOrDefaultWithObject();
+        //elementOperations.ElementFirstOrDefaultWithObject();
+        //elementOperations.ExampleLast();
+        //elementOperations.ExampleLastOrDefault();
+        elementOperations.SingleExample();
         #endregion
 
         #region :: Object Oriented Programming ::

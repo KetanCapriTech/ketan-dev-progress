@@ -17,6 +17,12 @@ Track of C# basics and LINQ practice examples.
 - Delegates
 - Join
 - Element operation
+  - First()
+  - FirstOrDefault()
+  - Last()
+  - LastOrDefault()
+  - Single()
+  - SingleOrDefault()
 
 ## Set Operations
 

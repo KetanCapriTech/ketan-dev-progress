@@ -16,6 +16,9 @@ Track of Week1 - Week3.
   - Enumeration
 - Delegates
 - Join
+    -InnerJoin
+    -LeftOuterJoin
+    -CrossJoin
 - Element operation
   - First()
   - FirstOrDefault()

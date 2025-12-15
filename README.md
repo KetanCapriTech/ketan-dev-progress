@@ -46,3 +46,6 @@ Track of C# basics and LINQ practice examples.
 
 LINQ Playlist by Nitesh Kaushik sir :  
 https://www.youtube.com/playlist?list=PLaFzfwmPR7_IZuwiT6nqcvNEhKl_Mg19A
+
+C# Fundamentals By : Shiva Gautam
+https://youtu.be/ZPxrO1F5JZg

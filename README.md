@@ -13,7 +13,7 @@ Track of C# basics and LINQ practice examples.
   - Abstraction
   - Inheritance
   - Polymorphism
-- Enumeration
+  - Enumeration
 - Delegates
 - Join
 - Element operation

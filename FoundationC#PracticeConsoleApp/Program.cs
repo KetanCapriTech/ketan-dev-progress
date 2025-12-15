@@ -92,18 +92,18 @@ class program
         //paginationExample.paginationImp();
 
         // Join Operations
-        //JoinOperations jp = new JoinOperations();
-        //jp.JoinExample();
+        JoinOperations jp = new JoinOperations();
+        jp.JoinExample();
 
         //Element opertaion
-        ElementOperations elementOperations = new ElementOperations();
+        //ElementOperations elementOperations = new ElementOperations();
         //elementOperations.ElementFirst();
         //elementOperations.ElementAtOperation();
         //elementOperations.ElementFirstOrDefault();
         //elementOperations.ElementFirstOrDefaultWithObject();
         //elementOperations.ExampleLast();
         //elementOperations.ExampleLastOrDefault();
-        elementOperations.SingleExample();
+        //elementOperations.SingleExample();
         #endregion
 
         #region :: Object Oriented Programming ::

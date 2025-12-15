@@ -1,6 +1,6 @@
 # C# Fundamentals & LINQ Practice
 
-Track of C# basics and LINQ practice examples.
+Track of Week1 - Week3.
 
 ## Topics Covered
 

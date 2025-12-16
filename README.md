@@ -55,3 +55,11 @@ https://youtu.be/ZPxrO1F5JZg
 
 Join Tutorial: CODELLIGENT'
 https://www.youtube.com/watch?v=vAGnEdabFpM
+
+----------------------------------------------------------------------------------------------------------------------------------
+# Other Repos for practice
+
+ - Database (sql practice) 
+- async / await 
+- Linq with Ef framework core 
+repo : https://github.com/KetanCapriTech/DbOperationWithEfCorePractice
